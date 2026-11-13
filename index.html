@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kishore's personal portfolio — Computer Science student, aspiring developer, and technology enthusiast.">
+  <title>Kishore | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">K</span><span>KISHORE<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT</div>
+        <p class="hero-kicker">Hello, world! I'm</p>
+        <h1>Kishore<span class="accent">.</span></h1>
+        <h2>Learning today. <span class="gradient-text">Building tomorrow.</span></h2>
+        <p class="hero-description">I'm a first-year engineering student exploring the world of technology, programming, and creative problem-solving. This is where I share what I'm learning and building.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="projects.html">Explore my work <span>↗</span></a>
+          <a class="button button-ghost" href="#about">More about me</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <a href="mailto:your-email@example.com">Email <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative developer code illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>hello_world.c</span><span class="code-lock">⌘</span></div>
+          <div class="code-content">
+            <p><span class="line-no">01</span><span class="code-purple">#include</span> <span class="code-green">&lt;stdio.h&gt;</span></p>
+            <p><span class="line-no">02</span></p>
+            <p><span class="line-no">03</span><span class="code-purple">int</span> main() {</p>
+            <p><span class="line-no">04</span>&nbsp;&nbsp;<span class="code-blue">printf</span>(<span class="code-green">"Hello, Kishore!"</span>);</p>
+            <p><span class="line-no">05</span>&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-orange">0</span>;</p>
+            <p><span class="line-no">06</span>}</p>
+            <div class="terminal-line"><span class="terminal-prompt">➜</span> Ready to build something<span class="cursor"></span></div>
+          </div>
+        </div>
+        <div class="floating-chip chip-top"><span>✦</span> Curious mind</div>
+        <div class="floating-chip chip-bottom"><span class="chip-pulse"></span> Always learning</div>
+      </div>
+    </section>
+
+    <section class="section-wrap intro-strip" id="about">
+      <div class="section-label">01 / ABOUT ME</div>
+      <div class="intro-content">
+        <h2>Curiosity is my <span class="gradient-text">starting point.</span></h2>
+        <p>I'm at the beginning of my engineering journey, building a strong foundation in computer science one concept at a time. I enjoy learning how technology works and turning new ideas into practical projects.</p>
+        <div class="mini-stats">
+          <div><strong>01<span>+</span></strong><small>Curious learner</small></div>
+          <div><strong>∞</strong><small>Ideas to explore</small></div>
+          <div><strong>100<span>%</span></strong><small>Ready to learn</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap skills-section">
+      <div class="section-label">02 / CURRENT TOOLKIT</div>
+      <div class="skills-content">
+        <h2>Things I'm <span class="gradient-text">exploring.</span></h2>
+        <p class="muted">My toolkit will grow as I learn. Here's where I'm starting.</p>
+        <div class="skill-grid">
+          <div class="skill-card"><span class="skill-icon">C</span><div><strong>C Programming</strong><small>Fundamentals & problem solving</small></div></div>
+          <div class="skill-card"><span class="skill-icon blue-icon">⌘</span><div><strong>Git & GitHub</strong><small>Version control basics</small></div></div>
+          <div class="skill-card"><span class="skill-icon orange-icon">‹/›</span><div><strong>HTML & CSS</strong><small>Building web pages</small></div></div>
+          <div class="skill-card"><span class="skill-icon purple-icon">JS</span><div><strong>JavaScript</strong><small>Exploring interactivity</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap contact-panel" id="contact">
+      <div><div class="section-label">03 / GET IN TOUCH</div><h2>Have an idea? <span class="gradient-text">Let's connect.</span></h2><p class="muted">I'm open to learning, collaborating, and connecting with fellow students and developers.</p></div>
+      <a class="button button-primary" href="mailto:your-email@example.com">Send me an email <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">K</span><span>KISHORE<span class="brand-dot">.</span></span></a><p>Designed & built by Kishore · <span id="year"></span></p><a href="#top" class="back-top">Back to top ↑</a></footer>
+</body>
+</html>
